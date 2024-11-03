@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProjectPamNew</string>
+    <string name="intro_title">Perbaiki Stylemu <font color="#800000">\nDi Dunia Sepatu ini</font></string>
+    <string name="intro_signin">Already have an account? <font color="#800000">Sign in</font></string>
+</resources>

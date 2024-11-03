@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "874108325066",
+    "firebase_url": "https://projectpamnew-default-rtdb.firebaseio.com",
+    "project_id": "projectpamnew",
+    "storage_bucket": "projectpamnew.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874108325066:android:cef0c4f44b01bba74ff833",
+        "android_client_info": {
+          "package_name": "com.example.projectpamnew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6rEqroi3TKh5RO7pmRqCb9EEsGrOX63w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
