@@ -1,14 +1,14 @@
 {
   "project_info": {
-    "project_number": "874108325066",
-    "firebase_url": "https://projectpamnew-default-rtdb.firebaseio.com",
-    "project_id": "projectpamnew",
-    "storage_bucket": "projectpamnew.firebasestorage.app"
+    "project_number": "291681745600",
+    "firebase_url": "https://tugas-akhir-pam-2ff1a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tugas-akhir-pam-2ff1a",
+    "storage_bucket": "tugas-akhir-pam-2ff1a.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:874108325066:android:cef0c4f44b01bba74ff833",
+        "mobilesdk_app_id": "1:291681745600:android:1fadc0763918f3954ecb25",
         "android_client_info": {
           "package_name": "com.example.projectpamnew"
         }
@@ -16,7 +16,26 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD6rEqroi3TKh5RO7pmRqCb9EEsGrOX63w"
+          "current_key": "AIzaSyCBFaD3L1ROWYLfiNm9xwdtnadWTTh20SM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291681745600:android:457d1cab82b7d7f74ecb25",
+        "android_client_info": {
+          "package_name": "com.example.techou"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBFaD3L1ROWYLfiNm9xwdtnadWTTh20SM"
         }
       ],
       "services": {

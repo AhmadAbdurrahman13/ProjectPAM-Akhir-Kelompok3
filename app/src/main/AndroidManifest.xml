@@ -15,14 +15,17 @@
         android:theme="@style/Theme.ProjectPamNew"
         tools:targetApi="31">
         <activity
+            android:name=".activity.ProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.CartActivity"
             android:exported="false" />
         <activity
             android:name=".activity.DetailActivity"
             android:exported="false" />
-        <activity
-            android:name=".activity.DetailActivity2"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".activity.DetailActivity2"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".activity.RegisterActivity"
             android:exported="false" />

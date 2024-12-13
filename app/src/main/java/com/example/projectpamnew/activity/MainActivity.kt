@@ -29,11 +29,26 @@ class MainActivity : BaseActivity() {
         initBrand()
         initPopular()
         initBottomMenu()
+        initUserName()
     }
 
     private fun initBottomMenu() {
-        binding.cartBtn.setOnClickListener{ startActivity(Intent(this@MainActivity, CartActivity::class.java))}
+        binding.cartBtn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, CartActivity::class.java))
+        }
+        binding.profileBtn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ProfileActivity::class.java))
+        }
     }
+
+    private fun initUserName() {
+        viewModel.userName.observe(this, Observer { name ->
+            binding.textView4.text = name // Tampilkan nama pada TextView
+        })
+        viewModel.loadUserName()
+    }
+
+
 
     private fun initBanner(){
         binding.progressBarBanner.visibility= View.VISIBLE
